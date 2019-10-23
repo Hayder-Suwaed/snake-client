@@ -21,7 +21,7 @@ const connect = function() {
         conn.write("Move: up");
             conn.write("Move: right");
       }, 500);
-      setTimeout(() => clearInterval(m), 2000);
+      setTimeout(() => clearInterval(m), 5000);
     });
     conn.setEncoding('utf8'); 
     return conn;
