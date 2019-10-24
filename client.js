@@ -13,7 +13,8 @@ const connect = function() {
   
       conn.on('connect', () => {
       console.log('Successfully connected to game server');
-      conn.write("Name: JUD")
+      conn.write("Name: JUD");
+      conn.write("say: IT was Fun getting stuck here for an hour")
          
     });
     conn.setEncoding('utf8'); 

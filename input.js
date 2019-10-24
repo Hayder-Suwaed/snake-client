@@ -13,6 +13,7 @@ const setupInput = function(conn) {
     if (key === 'a'){conn.write("Move: left"),  console.log('left')};
     if (key === 's') {conn.write("Move: down") , console.log('down')};
     if (key === 'd') { conn.write("Move: right") , console.log('right')};
+    if (key === 'p') {conn.write("IT was Fun getting stuck here for an hour"),console.log("IT was Fun getting stuck here for an hour") }
 
 };
 
